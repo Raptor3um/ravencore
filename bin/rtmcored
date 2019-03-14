@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-var ravencore = require('ravencore-node/lib/cli/ravencore');
+'use strict';
+
 var path = require('path');
+var rtmcored = require('rtmcore-node/lib/cli/rtmcored');
 var servicesPath = path.resolve(__dirname, '../');
 var additionalServices = ['insight-api', 'insight-ui'];
-ravencore(servicesPath, additionalServices);
+rtmcored(servicesPath, additionalServices);
