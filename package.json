@@ -1,18 +1,18 @@
 {
-  "name": "ravencore",
+  "name": "rtmcore",
   "version": "1.0.3",
-  "description": "A platform to build ravencoin and blockchain-based applications.",
+  "description": "A platform to build raptoreum and blockchain-based applications.",
   "author": "Under",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/** --recursive"
   },
   "bin": {
-    "ravencore": "./bin/ravencore",
-    "ravencored": "./bin/ravencored"
+    "rtmcore": "./bin/rtmcore",
+    "rtmcored": "./bin/rtmcored"
   },
   "keywords": [
-    "ravencoin",
+    "raptoreum",
     "transaction",
     "address",
     "p2p",
@@ -29,16 +29,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/ravencore.git"
+    "url": "https://github.com/Raptor3um/rtmcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "ravencore-lib": "underdarkskies/ravencore-lib",
-    "ravencore-node": "underdarkskies/ravencore-node",
-    "insight-api": "underdarkskies/insight-api",
-    "insight-ui": "underdarkskies/insight-ui"
+    "rtmcore-lib": "Raptor3um/rtmcore-lib",
+    "rtmcore-node": "Raptor3um/rtmcore-node",
+    "insight-api": "Raptor3um/insight-api",
+    "insight-ui": "Raptor3um/insight-ui"
   },
   "license": "MIT",
   "devDependencies": {

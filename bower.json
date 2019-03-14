@@ -1,8 +1,8 @@
 {
-  "name": "ravencore",
-  "main": "./ravencore.min.js",
+  "name": "rtmcore",
+  "main": "./rtmcore.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/underdarkskies",
+  "homepage": "https://github.com/Raptor3um",
   "authors": [
     "Under"
   ],
@@ -11,8 +11,8 @@
     "globals"
   ],
   "keywords": [
-    "ravencoin",
-    "ravencore",
+    "raptoreum",
+    "rtmcore",
     "btc",
     "satoshi"
   ],

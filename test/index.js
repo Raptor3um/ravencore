@@ -1,27 +1,27 @@
 'use strict';
 
 var should = require('chai').should();
-var ravencore = require('../');
+var rtmcore = require('../');
 
 describe('Library', function() {
   it('should export primatives', function() {
-    should.exist(ravencore.crypto);
-    should.exist(ravencore.encoding);
-    should.exist(ravencore.util);
-    should.exist(ravencore.errors);
-    should.exist(ravencore.Address);
-    should.exist(ravencore.Block);
-    should.exist(ravencore.MerkleBlock);
-    should.exist(ravencore.BlockHeader);
-    should.exist(ravencore.HDPrivateKey);
-    should.exist(ravencore.HDPublicKey);
-    should.exist(ravencore.Networks);
-    should.exist(ravencore.Opcode);
-    should.exist(ravencore.PrivateKey);
-    should.exist(ravencore.PublicKey);
-    should.exist(ravencore.Script);
-    should.exist(ravencore.Transaction);
-    should.exist(ravencore.URI);
-    should.exist(ravencore.Unit);
+    should.exist(rtmcore.crypto);
+    should.exist(rtmcore.encoding);
+    should.exist(rtmcore.util);
+    should.exist(rtmcore.errors);
+    should.exist(rtmcore.Address);
+    should.exist(rtmcore.Block);
+    should.exist(rtmcore.MerkleBlock);
+    should.exist(rtmcore.BlockHeader);
+    should.exist(rtmcore.HDPrivateKey);
+    should.exist(rtmcore.HDPublicKey);
+    should.exist(rtmcore.Networks);
+    should.exist(rtmcore.Opcode);
+    should.exist(rtmcore.PrivateKey);
+    should.exist(rtmcore.PublicKey);
+    should.exist(rtmcore.Script);
+    should.exist(rtmcore.Transaction);
+    should.exist(rtmcore.URI);
+    should.exist(rtmcore.Unit);
   });
 });

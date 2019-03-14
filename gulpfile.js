@@ -1,5 +1,5 @@
 
 
-var ravencoreTasks = require('ravencore-build');
+var rtmcoreTasks = require('rtmcore-build');
 
-ravencoreTasks();
+rtmcoreTasks();

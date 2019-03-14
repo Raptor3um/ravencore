@@ -1,5 +1,5 @@
 'use strict';
 
-var ravencore = require('ravencore-lib');
+var rtmcore = require('rtmcore-lib');
 
-module.exports = ravencore;
+module.exports = rtmcore;
