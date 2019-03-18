@@ -1,7 +1,7 @@
 rtmcore
 =======
 
-This is Under's fork of Bitpay's Bitcore that uses Raptoreum 2.1.1 It has a limited segwit support.
+This is Under's fork of Bitpay's Bitcore that uses Raptoreum 1.0 It has a limited segwit support.
 
 It is HIGHLY recommended to use https://github.com/Raptor3um/rtmcore-deb to build and deploy packages for production use.
 
